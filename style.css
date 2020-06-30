@@ -1,0 +1,193 @@
+body {
+    color: darkcyan;
+
+}
+
+.toptab {
+    overflow: hidden;
+    background-color: #333;
+  }
+
+.toptab a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+.toptab a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+.toptab a.active {
+    background-color: rgb(12, 116, 15);
+    color: white;
+  }
+
+h1 { 
+    text-align: right;
+    font-size:20px;
+    color: darkcyan;
+  }
+h2 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 9%;
+    left: 50%;
+  }
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 200px;
+  }
+
+.button {
+    position: absolute;
+    top: 90%;
+    left: 41%;
+    background-color:darkcyan;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+
+.myBtn {
+    position: absolute;
+    top: 90%;
+    left: 52%;
+    background-color:darkcyan;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    }
+
+.buttonorder {
+  position: absolute;
+    top: 68%;
+    left: 29%;
+    background-color:#333;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    }
+.about {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+    color:#333;
+    font-weight: bold;
+    text-shadow: -1px 1px 0 #333, 
+    1px 1px 0 black, 
+   /* 1px -1px 0 whitesmoke;   */
+  }
+.one {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+  }
+
+#password {
+      width: 125px; 
+      height: 15px;
+  }
+
+#sdepartment {
+    width: 240px;
+  }
+#sgrocery {
+    width: 240px;
+  }
+#spharm {
+    width: 240px;
+  }
+.foot {
+  text-align: center;
+  }
+
+
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+
+/* Modal Content */
+.modal-content {
+  background-color: darkcyan;
+  color: aliceblue;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 15%;
+  }
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  }
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+  }
+  .row {
+    /* border-radius: 50%; */
+    position: absolute;
+    top: 25%;
+    left: 10%;
+  } 
+
+/* .container {
+
+} */
+  
+
+
+

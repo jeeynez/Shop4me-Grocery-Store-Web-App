@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+   
+</head>
+<body>
+    <div class="toptab">
+        <a href="home.html">Home</a>
+        <a href="register.html">Register</a>
+        <a href="shop.html">Shop</a>
+        <a href="order.html">Order Details</a>
+        <h1>Shop4Me[MKE]</h1>
+      </div>
+      <div class="container">
+        <img src="./pictures/gshop.jpg" height="1080px" width="1920px">
+      </div> 
+      <!-- <div class="container">
+        <img src="blue.jpg" height="1080px" width="1920px"> -->
+          <div class="one">
+            <br><br><br><br><br><br><br>
+            <p3>Store Search</p3> 
+            <br><br>
+
+<div class="w3-content w3-display-container">
+  <img class="mySlides" src="./pictures/walg.jpg" style="width:100%">
+  <img class="mySlides" src="./pictures/sendiks.png" style="width:100%">
+  <img class="mySlides" src="./pictures/sams.jpg" style="width:100%">
+  <img class="mySlides" src="./pictures/wm.gif" style="width:100%">
+  <img class="mySlides" src="./pictures/CostcoShop.png" style="width:100%">
+  
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+  <a href="order.html" class="buttonorder">Select</a>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+<br><br>
+
+   <form>
+                <label for="sdepartment">Search Department Stores:</label><br>
+                <input type="text" id="sdepartment" name="sdepartment"><br>
+                <label for="sgrocery">Search Grocery Stores:</label><br>
+                <input type="text" id="sgrocery" name="sgrocery"><br>
+                <label for="spharm">Search Pharmacy:</label><br>
+                <input type="text" id="spharm" name="spharm"><br>
+              </form>
+          </div>
+      </div>  -->
+
+       <!-- <h2 class="w3-center">Select Store</h2>  -->
+
+</div>
+<footer class="foot">
+  <p>
+      <a target='_blank' href='https://www.facebook.com/share.php?u=https://www.facebook.com/jeeyne.zavala'>
+      <img src='https://www.matthewb.id.au/social/facebook_s.png' alt='Facebook'/></a>
+      <a target='_blank' href='https://www.linkedin.com/shareArticle?mini=true&amp;url=https://www.facebook.com/jeeyne.zavala'>
+      <img src='https://www.matthewb.id.au/social/linkedin_s.png' alt='Linked In'/></a>
+      <a target='_blank' href='https://twitter.com/intent/tweet?text=&url=https://www.facebook.com/jeeyne.zavala'>
+      <img src='https://www.matthewb.id.au/social/twitter_s.png' alt='Tweet' /></a>
+  </p>
+  <p>Privacy Policy | 414-222-3333 | @2020 JZ MEDIA STUDIOS inc.</p>
+</footer>
+</body>
+</html>

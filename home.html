@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Shop4Me</title>
+</head>
+    <body>
+        <div class="toptab">
+            <a href="home.html">Home</a>
+            <!-- <a href="about.html">About</a> -->
+            <a href="register.html">Register</a>
+            <a href="shop.html">Shop</a>
+            <h1>Shop4Me[MKE]</h1>
+        </div>
+    <div class="container">
+        <img src="./pictures/gshop.jpg" height="1080px" width="1920px">
+            <div class="centered">Welcome</div>
+                <div class="about"> It is our mission to assist our communities by providing the free delivery of critical
+                     products to low-income veterans, seniors, and people with disabilities.
+                </div>
+                <a href="register.html" class="button">Register</a>
+                <button id="myBtn" class="myBtn">Sign In</button>
+            <div id="myModal" class="modal">
+              <div class="modal-content">
+                <span class="close">&times;</span>
+                  <p>Sign In</p>
+                    <form>
+                        <label for="eaddress">Email:</label><br>
+                        <input type="text" id="eaddress" name="eaddress"><br>
+                        <label for="password">Password:</label><br>
+                        <input type="text" id="password" name="password"><br>
+                        <button>Sign In</button>
+                    </form>
+              </div>
+            </div>
+        <script>
+            // Get the modal
+            var modal = document.getElementById("myModal");
+            
+            // Get the button that opens the modal
+            var btn = document.getElementById("myBtn");
+            
+            // Get the <span> element that closes the modal
+            var span = document.getElementsByClassName("close")[0];
+            
+            // When the user clicks the button, open the modal 
+            btn.onclick = function() {
+              modal.style.display = "block";
+            }
+            
+            // When the user clicks on <span> (x), close the modal
+            span.onclick = function() {
+              modal.style.display = "none";
+            }
+            
+            // When the user clicks anywhere outside of the modal, close it
+            window.onclick = function(event) {
+              if (event.target == modal) {
+                modal.style.display = "none";
+              }
+            }
+        </script>
+
+
+    </body>
+
+    <footer class="foot">
+        <p>
+            <a target='_blank' href='https://www.facebook.com/share.php?u=https://www.facebook.com/jeeyne.zavala'>
+            <img src='https://www.matthewb.id.au/social/facebook_s.png' alt='Facebook'/></a>
+            <a target='_blank' href='https://www.linkedin.com/shareArticle?mini=true&amp;url=https://www.facebook.com/jeeyne.zavala'>
+            <img src='https://www.matthewb.id.au/social/linkedin_s.png' alt='Linked In'/></a>
+            <a target='_blank' href='https://twitter.com/intent/tweet?text=&url=https://www.facebook.com/jeeyne.zavala'>
+            <img src='https://www.matthewb.id.au/social/twitter_s.png' alt='Tweet' /></a>
+        </p>
+        <p>Privacy Policy | 414-222-3333 | @2020 JZ MEDIA STUDIOS inc.</p>
+      </footer>
+</html>
